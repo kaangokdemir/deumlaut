@@ -9,6 +9,7 @@
     "watch": "tsc src/index.ts --outDir dist --resolveJsonModule --declaration --watch",
     "dev": "nodemon dist/index.js",
     "test:watch": "jest --watchAll",
+    "test": "jest",
     "lint:fix": "eslint --fix --ext .js,.ts --ignore-path .eslintignore .",
     "prepublishOnly": "npm run build"
   },
