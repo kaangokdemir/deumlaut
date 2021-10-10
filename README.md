@@ -4,7 +4,7 @@
 
 > A lightweight zero dependency libray to replace [Umlauts (Diacritics)](<https://en.wikipedia.org/wiki/Diaeresis_(diacritic)/>) from your strings.
 
-<img src="https://raw.githubusercontent.com/kaangokdemir/deumlaut/master/static/logo.png" width="200" height="200">
+<img src="https://raw.githubusercontent.com/kaangokdemir/deumlaut/master/static/logo.jpeg" width="200" height="200">
 
 ```bash
 npm i deumlaut
