@@ -1,0 +1,33 @@
+{
+  "name": "deumlaut",
+  "version": "0.0.1",
+  "description": "Remove diacricts from your local language and create universial strings.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc src/index.ts --outDir dist --resolveJsonModule --declaration",
+    "watch": "tsc src/index.ts --outDir dist --resolveJsonModule --declaration --watch",
+    "dev": "nodemon dist/index.js",
+    "test:watch": "jest --watchAll",
+    "lint:fix": "eslint --fix --ext .js,.ts --ignore-path .eslintignore .",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "Kaan Gökdemir <kaangokdemir01@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^6.0.1",
+    "@nuxtjs/eslint-config-typescript": "^6.0.1",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "@types/jest": "^27.0.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.2.5",
+    "nodemon": "^2.0.13",
+    "prettier": "^2.4.1",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.3"
+  }
+}
