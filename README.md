@@ -11,7 +11,7 @@ npm i deumlaut
 
 # or
 
-yarn deumlaut
+yarn add deumlaut
 ```
 
 ## Usage
@@ -19,12 +19,14 @@ yarn deumlaut
 ```javascript
 const { deumlaut } = require('deumlaut')
 
-//  or
+// or
 
 import { deumlaut } from 'deumlaut'
 
 deumlaut('Tschüss') // Tschuess
-deumlaut('Çarşı') // Carsi
+deumlaut('Çarşı', 'tr') // Carsi
+
+//  For more examples, you can check the "tests" folder.
 ```
 
 ## Parameters
