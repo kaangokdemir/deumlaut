@@ -1,6 +1,6 @@
 {
   "name": "deumlaut",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Remove diacricts from your local language and create universial strings.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,6 +12,11 @@
     "lint:fix": "eslint --fix --ext .js,.ts --ignore-path .eslintignore .",
     "prepublishOnly": "npm run build"
   },
+  "files": [
+    "dist",
+    "tsconfig.json",
+    "README.md"
+  ],
   "keywords": [],
   "author": "Kaan Gökdemir <kaangokdemir01@gmail.com>",
   "license": "MIT",
